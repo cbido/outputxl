@@ -1,0 +1,25 @@
+Package: outputxl
+Title: Institutional-Styled Excel Outputs for Survey Analysis
+Version: 0.1.0
+Authors@R: 
+    person("outputxl authors", role = c("aut", "cre"),
+           email = "outputxl@example.com")
+Description: Produces professionally formatted Excel workbooks from data 
+    analysis outputs, following institutional styling conventions used by 
+    international development organizations and government agencies. Features 
+    include branded color palettes for UN agencies (UNFPA, UNDP, UNICEF, 
+    ECLAC), the World Bank, and neutral academic styles. Automatic TOTAL row 
+    detection, alternating row shading, freeze panes, auto-width columns, 
+    and a stacking system that lets you write multiple tables to a single 
+    sheet with consistent spacing.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    openxlsx
+Suggests: 
+    dplyr,
+    testthat (>= 3.0.0)
+URL: https://github.com/cbido/outputxl
+BugReports: https://github.com/cbido/outputxl/issues
